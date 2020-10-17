@@ -1,0 +1,9 @@
+# subscribed by Kill Bill
+# https://m.facebook.com/story.php?story_fbid=458250045138646&id=100028609636194&ref=bookmarks
+
+# Program to generate a random number between 0 and 9
+
+# importing the random module
+import random
+
+print(random.randint(0,9))
