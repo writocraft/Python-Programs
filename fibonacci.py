@@ -1,3 +1,4 @@
+#Taking input 
 nterms = int(input("How many terms? "))
 
 # first two terms
@@ -5,6 +6,7 @@ n1, n2 = 0, 1
 count = 0
 
 # check if the number of terms is valid
+#checking for a positive integer
 if nterms <= 0:
    print("Please enter a positive integer")
 elif nterms == 1:
