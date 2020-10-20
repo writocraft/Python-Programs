@@ -1,0 +1,29 @@
+#https://www.facebook.com/permalink.php?story_fbid=103039851600105&id=100056822710327
+#Subscribed by Sonali Gupta
+import math
+import os
+import random
+import re
+import sys
+
+n = int(input())
+a = list(map(int, input().rstrip().split()))
+
+
+def bubblesort(a,n):
+    numofswaps = 0
+    for i in range (n):
+        for j in range (n-1-i):
+            if a[j] > a[j + 1]: 
+                temp = a[j]
+                a[j] = a[j+1]
+                a[j+1] = temp
+                numofswaps += 1
+        if numofswaps == 0:
+             break
+    print("Array is sorted in " + str(numofswaps) +" swaps.")
+    print("First Element: "+str(a[0]))
+    print("Last Element: "+str(a[len(a)-1]))
+
+
+bubblesort(a,n)
