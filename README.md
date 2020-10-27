@@ -2,7 +2,7 @@
 # subscribed jay vijay
 # Python-Programs
 
-python program for live corona graph
+python program for live corona graph.
 
 
 import pandas as pd
